@@ -1,4 +1,4 @@
-import Input from "../../components/inputs/input";
+import Input from "../../components/Inputs/Input";
 import ProfilePhotoSelector from "../../components/Inputs/ProfilePhotoSelector";
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
