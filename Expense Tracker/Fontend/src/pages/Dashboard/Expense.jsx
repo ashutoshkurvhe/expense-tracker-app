@@ -1,4 +1,3 @@
-import React from 'react'
 import { useUserAuth } from '../../hooks/useUserAuth';
 import DashboardLayout from '../../components/layouts/DashboardLayout';
 import ExpenseOverview from '../../components/Expense/ExpenseOverview';

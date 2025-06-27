@@ -1,4 +1,3 @@
-import React from "react";
 import { useEffect, useState } from "react";
 import DashboardLayout from "../../components/layouts/DashboardLayout";
 import IncomeOverview from "../../components/Income/IncomeOverview";
