@@ -83,7 +83,7 @@ const Expense = () => {
     }
   };
 
-  //Delete Expense Logic
+  //Delete Expense
   const deleteExpense = async (id) => {
     try {
       await axiosInstance.delete(API_PATHS.EXPENSE.DELETE_EXPENSE(id));
