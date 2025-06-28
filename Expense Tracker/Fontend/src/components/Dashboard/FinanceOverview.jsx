@@ -1,4 +1,3 @@
-import React from "react";
 import CustomePieChart from "../Charts/CustomePieChart";
 
 const COLORS = ["#875CF6", "#FA2C37", "#FF6900"];
