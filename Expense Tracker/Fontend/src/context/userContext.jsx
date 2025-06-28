@@ -16,7 +16,7 @@ const UseProvider = ({ children }) => {
   //Function to clear user data (e.g., on logout)
   const clearUser = () => {
     setUser(null);
-    // localStorage.removeItem("token");
+    localStorage.removeItem("token");
   };
 
   return (
