@@ -38,6 +38,8 @@ const Login = () => {
         email,
         password,
       });
+      
+      // Assuming the response contains a token and user data
       const { token, user } = response.data;
 
       if (token) {
