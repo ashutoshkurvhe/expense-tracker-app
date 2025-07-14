@@ -4,7 +4,7 @@ import { LuPlus } from "react-icons/lu";
 import CustomLineChart from "../Charts/CustomLineChart";
 
 
-const ExpenseOverview = ({ transactions, onExpenseIncome }) => {
+const ExpenseOverview = ({ transactions, onAddExpense }) => {
     const [chartData, setChartData] = useState([]);
 
     useEffect(() => {
@@ -22,7 +22,7 @@ const ExpenseOverview = ({ transactions, onExpenseIncome }) => {
               </div>
           </div>
 
-          <button className="add-btn" onClick={onExpenseIncome}>
+          <button className="add-btn" onClick={onAddExpense}>
               <LuPlus className="text-lg" />
               Add Expense
           </button>
