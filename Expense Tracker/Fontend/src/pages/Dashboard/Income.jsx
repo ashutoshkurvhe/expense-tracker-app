@@ -4,7 +4,7 @@ import IncomeOverview from "../../components/Income/IncomeOverview";
 import axiosInstance from "../../utils/axiosInstance";
 import { API_PATHS } from "../../utils/apiPaths";
 import Model from "../../components/Model";
-import AddIncomeForm from "../../components/Income/AddincomeForm";
+import AddIncomeForm from "../../components/Income/AddIncomeForm";
 import IncomeList from "../../components/Income/IncomeList";
 import DeleteAlert from "../../components/DeleteAlert";
 import {useUserAuth} from "../../hooks/useUserAuth"
