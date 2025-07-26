@@ -6,7 +6,7 @@ import moment from 'moment';
 
 const ExpenseList = ({ transactions, onDelete, onDownload}) => {
   return (
-      <div className="card">
+      <div className="card mt-5">
           <div className="flex items-center justify-between">
               <h5 className="text-lg">All Expenses</h5>
 

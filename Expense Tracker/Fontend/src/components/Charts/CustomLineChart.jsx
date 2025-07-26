@@ -50,7 +50,7 @@ const CustomLineChart = ({ data }) => {
             <Area
               type="monotone"
               dataKey="amount"
-              stroke="#875cf5"
+              stroke="#874cf5"
               fill="url(#incomeGradient)"
               strokeWidth={3}
               dot={{ r: 3, fill: "#ab8df8" }}

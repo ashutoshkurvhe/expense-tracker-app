@@ -77,9 +77,11 @@ const SignUp = () => {
   };
   return (
     <AuthLayout>
-      <div className="lg:w-[70%] h-auto md:h-full mt-10 md:mt-0 flex flex-col justify-center">
-        <h3 className="text-2xl lg:text-4xl font-semibold text-black">Create an Account</h3>
-        <p className="text-xs text-slate-700 mt-[5px] mb-6">
+      <div className="lg:w-[80%] h-auto md:h-[500px] p-6 mt-10 md:mt-0 flex flex-col justify-center rounded-2xl bg-white/30 backdrop-blur-2xl">
+        <h3 className="text-2xl lg:text-4xl  text-center font-semibold text-white">
+          Create an Account
+        </h3>
+        <p className="text-xs text-gray-200 mt-[5px] mb-6 text-center">
           Join us today by entering your details below
         </p>
 
@@ -101,16 +103,16 @@ const SignUp = () => {
               placeholder="john@example.com"
               type="email"
             />
-            </div>
-            <div className="col-span-2">
-              <Input
-                vlaue={password}
-                onChange={({ target }) => setPassword(target.value)}
-                label="Password"
-                placeholder="Min 8 characters"
-                type="password"
-              ></Input>
-            </div>
+          </div>
+          <div className="col-span-2">
+            <Input
+              vlaue={password}
+              onChange={({ target }) => setPassword(target.value)}
+              label="Password"
+              placeholder="Min 8 characters"
+              type="password"
+            ></Input>
+          </div>
 
           {error && <p className="text-red-500 text-xs pb-2.5">{error}</p>}
 
@@ -118,7 +120,7 @@ const SignUp = () => {
             SIGN UP
           </button>
 
-          <p className="text-[13px] text-slate-800 mt-3">
+          <p className="text-[13px] text-white mt-3">
             Already have an account?{""}
             <Link
               className="font-medium text-medium text-primary underline"

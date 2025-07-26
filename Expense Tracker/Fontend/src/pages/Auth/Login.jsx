@@ -57,9 +57,9 @@ const Login = () => {
   };
   return (
     <AuthLayout>
-      <div className="text-2xl lg:w-[70%] h-3/4 md:h-full flex flex-col justify-center">
-        <h3 className="text-2xl lg:text-4xl font-semibold text-black">Welcome Back</h3>
-        <p className="text-xs text-slate-700 mt-[5px] mb-6">
+      <div className="text-2xl w-[300px] lg:w-[50%] h-2/4 md:h-[500px] p-6 flex flex-col justify-center rounded-2xl bg-white/30 backdrop-blur-2xl">
+        <h3 className="text-2xl lg:text-4xl font-semibold text-white text-center">Welcome Back</h3>
+        <p className="text-xs text-gray-200 mt-[5px] mb-6 text-center">
           Please enter your details to log in
         </p>
 
@@ -86,7 +86,7 @@ const Login = () => {
             LOGIN
           </button>
 
-          <p className="text-[13px] text-slate-800 mt-3">
+          <p className="text-[13px] text-white text-center mt-3">
             Don't have an account?{" "}
             <Link
               className="font-medium text-medium text-primary underline"

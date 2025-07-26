@@ -51,11 +51,11 @@ const Home = () => {
     <DashboardLayout activeMenu="Dashboard">
       <div className='my-5 mx-auto'>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <InfoCard icon={<IoMdCard />} label="Total Balance" value={addThousandsSeprator(dashboardData?.totalBalance || 0)} color="bg-primary" />
+          <InfoCard icon={<IoMdCard />} label="Total Balance" value={addThousandsSeprator(dashboardData?.totalBalance || 0)} color="bg-purple-400" />
           
-          <InfoCard icon={<LuWalletMinimal />} label="Total Income" value={addThousandsSeprator(dashboardData?.totalIncome || 0)} color="bg-orange-500" />
+          <InfoCard icon={<LuWalletMinimal />} label="Total Income" value={addThousandsSeprator(dashboardData?.totalIncome || 0)} color="bg-orange-400" />
           
-          <InfoCard icon={<LuHandCoins />} label="Total Expensse" value={addThousandsSeprator(dashboardData?.totalExpense || 0)} color="bg-red-500"/>
+          <InfoCard icon={<LuHandCoins />} label="Total Expensse" value={addThousandsSeprator(dashboardData?.totalExpense || 0)} color="bg-red-400"/>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols2 gap-6 mt-6">
