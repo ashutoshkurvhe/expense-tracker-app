@@ -7,6 +7,7 @@ const authRoutes = require("./routes/auth.routes");
 const incomeRoutes = require("./routes/Income.routes");
 const expenseRoutes = require("./routes/expense.routes");
 const dashboardRoutes = require("./routes/dashboard.routes");
+const { error } = require("console");
 
 const app = express();
 
@@ -29,7 +30,16 @@ app.use("/api/v1/expense", expenseRoutes);
 app.use("/api/v1/dashboard", dashboardRoutes);
 
 //Serve upload folder
-app.use("/uploads",express.static(path.join(__dirname, "uploads")));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+
+app.get("/", (req, res) => {
+    res.send({
+
+        activeStatus : true,
+        error: false,
+        message: "Welcome to Expense Tracker App API",
+    });
+});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
