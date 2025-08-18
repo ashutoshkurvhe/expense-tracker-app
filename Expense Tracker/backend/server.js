@@ -7,7 +7,6 @@ const authRoutes = require("./routes/auth.routes");
 const incomeRoutes = require("./routes/Income.routes");
 const expenseRoutes = require("./routes/expense.routes");
 const dashboardRoutes = require("./routes/dashboard.routes");
-const { error } = require("console");
 
 const app = express();
 
