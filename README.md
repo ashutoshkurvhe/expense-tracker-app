@@ -38,7 +38,7 @@ Authentication: JWT, bcrypt
 
 Clone the repository:
 
-git clone https://github.com/your-username/expense-tracker-app.git
+git clone https://github.com/ashutoshkurvhe/expense-tracker-app.git
 cd expense-tracker-app
 
 Backend Setup
