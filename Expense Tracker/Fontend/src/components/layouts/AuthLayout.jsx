@@ -8,7 +8,7 @@ const AuthLayout = ({ children }) => {
       <div className="absolute inset-0">
         <div className="flex justify-center items-center relative">
           <div className="flex flex-col justify-center items-center w-screen h-screen md:w-[60vw] px-2 pt-8 pb-12 z-10 relative">
-            <h2 className="text-2xl font-medium text-white lg:text-4xl mb-5">
+            <h2 className="text-4xl font-medium text-white lg:text-4xl mb-5">
               Expense Tracker
             </h2>
             {children}

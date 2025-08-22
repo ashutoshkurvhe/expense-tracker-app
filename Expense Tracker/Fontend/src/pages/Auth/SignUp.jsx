@@ -77,7 +77,7 @@ const SignUp = () => {
   };
   return (
     <AuthLayout>
-      <div className="lg:w-[80%] h-auto md:h-[500px] p-6 mt-10 md:mt-0 flex flex-col justify-center rounded-2xl bg-white/30 backdrop-blur-2xl">
+      <div className="w-[100%] lg:w-[80%] h-auto md:h-[500px] p-6 mt-10 md:mt-0 flex flex-col justify-center rounded-2xl bg-white/30 backdrop-blur-2xl">
         <h3 className="text-2xl lg:text-4xl  text-center font-semibold text-white">
           Create an Account
         </h3>
